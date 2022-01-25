@@ -1,5 +1,5 @@
 # hr
-Draws horizontal line in a console &lt;hr>
+Draws a horizontal line in a console occupying the full width of a terminal. Inspired by &lt;hr&gt; HTML tag.
 
 ## Usage
 
