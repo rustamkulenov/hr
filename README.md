@@ -12,10 +12,16 @@ If may be useful for you if you want to split large output in a console visually
 ## Usage
 
 ```bash
+$hr
 $hr <color>
 ```
 
 A *color* parameter is optional and may be from this list: black, red, green, yellow, blue, magenta, cyan, white.
+
+It is possible to provide a text to print on a center of the line into stdin:
+```bash
+$echo CUT HERE | hr red
+```
 
 ![Horizontal line in terminal](src/terminal.gif)
 
